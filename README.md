@@ -68,5 +68,6 @@ $ulimit -s KBytes
 (65356 should be enough for an image with the size of 1024*1024 pixels).
 3.run the program again.
 ```
+In other operating systems you can also solve the core dumpled problem with some efforts. :)
 
 

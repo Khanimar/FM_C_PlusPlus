@@ -2,7 +2,7 @@
 This package contains a C++ implementation of the Fast Marching (FM) integrator for non-convex domains which can probably include some holes.
 
 Here, I explain the running process by an example:
-Our input sample is the **lena** image with the resolution of 256\times256.
+Our input sample is the *"lena"* image with the resolution of 256\times256.
 The program consists of one cpp file (FM2H.cpp) and 4 header files:
 ```
 pix.h

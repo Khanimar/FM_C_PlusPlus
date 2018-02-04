@@ -1,14 +1,15 @@
 # FM_C_PlusPlus
 This package contains a C++ implementation of the Fast Marching (FM) integrator for non-convex domains which can probably include some holes.
 
-I am going to explain the running process by an example("lena" image with the resolution of 256*256).
+Here, I explain the running process by an example:
+Our input sample is the **lena** image with the resolution of 256\times256.
 The program consists of one cpp file (FM2H.cpp) and 4 header files:
-
+'''
 pix.h
 geo_upwind2.h
 Marli_heap.h
 sobel.h
-
+'''
 it is better to open all five files in a coding environmeent before running the program 
 since you have to change (input) some parameters before starting the process:
 

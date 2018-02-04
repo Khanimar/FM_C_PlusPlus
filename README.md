@@ -11,7 +11,9 @@ Marli_heap.h
 sobel.h
 ```
 it is better to open all five files in a coding environmeent before running the program 
-since you have to change (input) some parameters before starting the process:
+since you have to change some parameters before starting the process, 
+<br>
+*feel free to modify the code and perform them Automatically*:
 
 First, you have to determine the number of rows in the input image which is the number in front of 
 ```

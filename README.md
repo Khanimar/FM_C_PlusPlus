@@ -1,5 +1,7 @@
 # FM_C_PlusPlus
-This package contains a C++ implementation of the <a href="https://en.wikipedia.org/wiki/Fast_marching_method">Fast Marching (FM) integrator</a> for non-convex domains which can probably include some holes.
+This package contains a C++ implementation of the <a href="https://en.wikipedia.org/wiki/Fast_marching_method">Fast Marching (FM) integrator</a> for non-convex domains which can probably include some holes. This implementation is used in our paper entitled:
+<br>
+<a href="https://link.springer.com/article/10.1007/s41095-016-0075-z"> Fast and accurate surface normal integration on non-rectangular domains </a>
 
 Here, I explain the running process by an example:
 Our input sample is the *"lena"* image with the resolution of 256\times256.

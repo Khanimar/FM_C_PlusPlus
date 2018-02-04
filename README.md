@@ -69,7 +69,7 @@ M:number of columns in the input image (256 in the case of "lena" image)
 ```
 The result will be saved as the **output.png** file.
 
-In the case of getting "Segmentation Fault *Core Dumped* error on a Linux system:
+In the case of getting **Segmentation Fault Core Dumped** error on a Linux system:
 ```
 1.Login via Linux terminal at the bottom of the compiler (black screen) as the super user (SU).
 2.Increase the "stack size" by the prompt of

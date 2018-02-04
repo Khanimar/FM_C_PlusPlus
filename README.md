@@ -47,7 +47,7 @@ then (when you see no error, it is possible to get some warning messages, ignore
 ```
 After that you will have the output of the whole program in **result.txt** file.
 
-Now it is time to use the Matlab program **see_result_withmask.m** to see the result and have the MSE error rate of the output.
+Now it is time to use the Matlab program **see_result_withmask.m** to see the result and have the *Mean Squared Error (MSE)* rate of the output.
 
 This program has 3 input parameters:
 ```

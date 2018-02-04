@@ -37,8 +37,6 @@ sobel.h
 ```
 Then determine *LAMBDA* value & the *input file name* in the **FM2H.cpp** file.
 
-<br>
-
 *(feel free to modify the code to perform them Automatically)*
 
 concerning the mask image, you have to save it with the name of **mask.png**.
@@ -60,8 +58,6 @@ then (when you see no error, it is possible to get some warning messages, ignore
 After that you will have the output of the whole program in **result.txt** file.
 
 Now it is time to use the Matlab program **see_result_withmask.m** to see the result and have the *Mean Squared Error (MSE)* rate of the output.
-
-<br>
 
 *(you can also here write your own C++ code to avoid using Matlab)*
 

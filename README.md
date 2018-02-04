@@ -66,16 +66,15 @@ This program has 3 input parameters:
 see_result_withmask(filename,N,M)
 Filename: is the input file name in string for example: 'lena.png'
 N: number of rows in the input image (256 in the case of "lena" image)
-M:number of columns in the input image (256 in the case of "lena" image)
+M: number of columns in the input image (256 in the case of "lena" image)
 ```
 The result will be saved as the **output.png** file.
 
 In the case of getting **Segmentation Fault Core Dumped** error on a Linux system:
 ```
-1.Login via Linux terminal at the bottom of the compiler (black screen) as the super user (SU).
-2.Increase the "stack size" by the prompt of
-$ulimit -s KBytes
-(65356 should be enough for an image with the size of 1024*1024 pixels).
+1.Login via Linux terminal.
+2.Increase the "stack size" by:
+$ulimit -s KBytes (65356 should be enough for an image with the size of 1024*1024 pixels).
 3.run the program again.
 ```
 In other operating systems you can also solve the core dumpled problem with some efforts. :)
